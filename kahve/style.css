@@ -1,0 +1,413 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Jost", sans-serif;
+}
+/* header start */
+header {
+  height: 100px;
+  font-weight: bold;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+header nav .logo a {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+nav ul {
+  list-style: none; /* listedeki her madde için kullanılan belirteçleri kaldırır.*/
+  display: flex; /* listedeki tüm elemanlar yan yana gelir*/
+  column-gap: 30px; /* aralarını açmak için kullanılır.*/
+  text-decoration: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+nav .menu {
+  text-decoration: none;
+  display: flex;
+  column-gap: 30px;
+  align-items: center;
+}
+
+nav ul li a:hover {
+  /* üstüne geldiğinde text renginin ve değişme hızının düzenlenmesi*/
+  color: #838488;
+  transition: color 0.25s ease;
+}
+
+nav .menu img {
+  width: 30px;
+  /* padding: 12px 12px; */
+  background-color: white;
+  border-radius: 50%;
+}
+
+nav img:hover {
+  background-color: #838488;
+  transition: background-color 0.25s ease;
+}
+
+nav .logo img {
+  width: 180px;
+}
+
+nav .menu .buy-gift-button {
+  background-color: #1b1b1d;
+  color: white;
+  padding: 12px;
+  border-radius: 20px;
+}
+
+nav .menu .buy-gift-button:hover {
+  background-color: #838488;
+  transition: background-color 0.25s ease;
+}
+/* header end */
+
+/* row start */
+
+.h1-sec1 {
+  font-size: 95px;
+  padding-right: 20px;
+  font-weight: bold;
+}
+
+.row .download-btn {
+  background-color: #1b1b1d;
+  color: white;
+  padding: 12px 12px;
+  /* border-radius: 20px 20px 20px 20px; */
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.row .download-btn:hover {
+  background-color: #838488;
+  transition: background-color 0.25s ease;
+}
+
+.row .shop-btn {
+  padding-left: 25px;
+  color: black;
+  font-size: 18px;
+}
+
+.row .shop-btn:hover {
+  color: #838488;
+  transition: background-color 0.25s ease;
+}
+/* row end */
+@media (max-width: 768px) {
+  .buy-gift-button {
+    background-color: blue !important;
+  }
+}
+
+.card {
+  border: none;
+}
+
+.card-title {
+  font-size: 28px;
+}
+
+.card-text {
+  font-size: 20px;
+}
+
+.btn-dark-theme {
+  background-color: black;
+  color: white;
+  padding: 12px;
+  border-radius: 20px;
+  text-decoration: none;
+  margin: 8%;
+}
+d-flex align-items-center .bg-primary-theme {
+  background-color: #eeeff1;
+}
+
+.bg-primary-theme-gradient {
+  background: linear-gradient(#f3f4f5, #eeeff1);
+}
+
+.border-radius-1 {
+  border-radius: 1rem;
+}
+
+.border-radius-2 {
+  border-radius: 2rem;
+}
+
+.border-radius-3 {
+  border-radius: 3rem;
+}
+
+.cup-background {
+  position: absolute;
+  top: 10%;
+  left: -8%;
+  width: 25%;
+  transform: rotate(-45deg);
+  z-index: 1;
+}
+
+.cup-shadow {
+  position: absolute;
+  background: rgb(134, 134, 134);
+  background: radial-gradient(
+    circle,
+    rgba(134, 134, 134, 0.75) 0%,
+    rgba(255, 255, 255, 0) 50%
+  );
+  top: 20%;
+  left: -20%;
+  width: 50%;
+  height: 550px;
+}
+
+.card_pic_style {
+  margin: 30px;
+  width: 90px;
+}
+
+.padding-top19 {
+  padding-top: 19%;
+}
+
+.h1_duzeltme {
+  width: 10%;
+  font-size: 80px;
+  padding-right: 30px;
+  font-weight: bold;
+}
+
+.margin-non {
+  margin: 0%;
+}
+
+section.dort {
+  overflow: hidden;
+}
+.cup-background-sec4 {
+  position: absolute;
+  top: 10%;
+  right: -7%;
+  width: 20%;
+  transform: rotate(270deg);
+  z-index: 1;
+  filter: blur(8px);
+}
+.overflow-card-design img {
+  margin: 0 !important;
+  width: 200px;
+  transform: translateY(-90px);
+}
+.uc {
+  margin: 150px 0;
+}
+.overflow-card-design {
+  height: 200px;
+}
+.cup-shadow-sec4 {
+  position: absolute;
+  background: rgb(134, 134, 134);
+  background: radial-gradient(
+    circle,
+    rgba(134, 134, 134, 0.75) 0%,
+    rgba(255, 255, 255, 0) 50%
+  );
+  top: 15%;
+  right: -18%;
+  width: 40%;
+  height: 550px;
+  filter: blur(8px);
+}
+
+.h1-sec5 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.halka {
+  width: 85%;
+  transform: rotate(-50deg);
+  position: absolute;
+}
+
+.ss {
+  width: 350px;
+  transform: rotate(5deg);
+  top: -11% !important;
+  right: 140px;
+  z-index: 2;
+  position: absolute;
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 2%;
+}
+
+.ss2 {
+  width: 350px;
+  transform: rotate(-10deg);
+  right: 200px;
+  z-index: 1;
+  position: absolute;
+  top: -62px;
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 2%;
+}
+
+.cup-background-sec5 {
+  position: absolute;
+  top: -14%;
+  left: -8%;
+  width: 16%;
+  transform: rotate(-38deg);
+  z-index: 1;
+}
+
+.cup-shadow-sec5 {
+  position: absolute;
+  background: rgb(134, 134, 134);
+  background: radial-gradient(
+    circle,
+    rgba(134, 134, 134, 0.75) 0%,
+    rgba(255, 255, 255, 0) 50%
+  );
+  top: -30%;
+  left: -22%;
+  width: 39%;
+  height: 550px;
+}
+
+/* Slider için  */
+
+html body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 140%;
+}
+
+.swiper-slide {
+  text-align: left;
+  background: #fff;
+  border-radius: 20px;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.slider-left {
+  /* position: absolute !important;
+  left: -20px; */
+  transform: translateX(-112px);
+}
+
+/* Slider için  */
+.slider-baslik {
+  padding-left: 200px;
+}
+
+.h5-slider {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.h1-sec6 {
+  font-size: 56px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.logo-size-sec7 {
+  width: 230px;
+}
+
+.text-contact {
+  font-size: 17px;
+  color: #64646a;
+  padding-left: 9px;
+  padding-top: 12px;
+}
+
+.text-color {
+  color: #64646a;
+}
+
+.find-my-alow-text {
+  color: black;
+  font-size: 15px !important;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.find-my-alow-text:hover {
+  color: #838488;
+  transition: background-color 0.25s ease;
+}
+
+.cup-background-sec6 {
+  position: absolute;
+  top: 69%;
+  right: -10%;
+  width: 26%;
+  transform: rotate(297deg);
+  z-index: 1;
+}
+
+.h5-text {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.stars {
+  width: 40%;
+}
+
+.ok {
+  width: 25px;
+}
