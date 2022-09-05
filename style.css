@@ -437,3 +437,9 @@ body {
   justify-content: flex-start;
   align-items: center;
 }
+.social-media a {
+  color: #64646a;
+  text-decoration: none;
+  font-size: 25px;
+  margin-right: 15px;
+}
